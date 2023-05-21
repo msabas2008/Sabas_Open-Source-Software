@@ -1,0 +1,377 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+}
+
+header {
+	background-color: white;
+	position: fixed;
+	z-index:10;
+	width: 100%;
+}
+
+nav { 
+	padding: 20px;
+}
+
+li {
+	display: inline;
+}
+
+.list {
+	position: relative;
+	top: 12px;
+    text-align: left;
+	list-style-type: none;
+}
+
+a {
+	font-weight: bold;
+	transition: all .5s ease;
+	border-radius: 5px 5px 5px 15px;
+	margin: 30px;
+	color: black;
+    border: 3px solid #7E1AE5;
+    font-family:'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    font-size: 17px;
+    background-color : transparent;
+    padding: 10px;
+    outline: none;
+    border-radius: 4px;
+	text-decoration: none;
+}
+a.navbar:hover {
+    color: white;
+    background-color: #7E1AE5;
+}
+
+#softwareEng {
+	position: relative;
+	bottom: 70px;
+	margin: 0px;
+	z-index: 3;
+	opacity: 0.8;
+}
+
+#title {
+	font-family:'Montserrat', sans-serif;
+	font-size: 90px;
+	font-weight: bold;
+	color: #DFC3E6;
+	margin:0px;
+	z-index: 8;
+	position: absolute;
+	text-align: center;
+	left: 170px;
+	top:300px;
+	text-shadow: 0px 6px 5px black;
+}
+
+#subtitle {
+	font-family:'Montserrat', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+	margin:0px;
+	z-index: 8;
+	position: relative;
+	bottom: 50px;
+	text-shadow: 0px 6px 5px black;
+}
+
+.firstForm {
+	z-index: 8;
+	position: absolute;
+	bottom: 90px;
+	left: 480px;
+}
+
+#qNa {
+	font-family:'Montserrat', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	text-shadow: 3px 2px 3px white;
+	padding: 10px;
+	border: 2px solid #2A024D;
+	background-color: #DFC3E6;
+	color: #2A024D;
+}
+
+#answers{
+	font-family:'Montserrat', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	text-shadow: 0px 3px 3px black;
+	color: #F0D16E;
+}
+
+.readMore {
+	position: absolute;
+	top: 650px;
+	right: 730px;
+	z-index: 8;
+}
+
+a.readMore:hover {
+    color: white;
+    background-color: #7E1AE5;
+}
+
+.image{
+	float: right;
+}
+
+#image1 {
+	position: relative;
+	right: 20px;
+	border-radius: 30px;
+	width: 700px;
+	height: 470px;
+}
+
+#description {
+	position: relative;
+	bottom: 20px;
+	left: 30px;
+	margin: 3px;
+	width: 51%;
+}
+
+#legend {
+	font-family: "Segoe UI";
+	font-size: 40px;
+	font-weight: bold;
+	color: #2A024D;
+}
+
+.description {
+	font-family: "Segoe UI";
+	font-size: 25px;
+	padding: 5px;
+	letter-spacing: 0.5px;
+}
+
+#whatIs {
+	font-family:'Montserrat', sans-serif;
+	font-size: 50px;
+	font-weight: bold;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #3F387D;
+	text-align: center;
+	text-shadow: 0px 6px 5px white;
+}
+
+#Comparison {
+	background: #BFA7EB;
+}
+
+.image2{
+	float: right;
+}
+
+#image2 {
+	position: relative;
+	right: 20px;
+	border-radius: 30px;
+	width: 700px;
+	height: 470px;
+}
+
+#differences {
+	font-family: "Segoe UI";
+	font-size: 35px;
+	padding: 20px;
+	letter-spacing: 0.5px;
+	word-spacing: 2.5px;
+}
+
+#oss {
+	font-family: "Segoe UI";
+	font-size: 30px;
+	padding: 20px;
+	letter-spacing: 0.5px;
+	word-spacing: 2.5px;
+}
+
+.description2 {
+	font-family: "Segoe UI";
+	font-size: 25px;
+	margin-left: 20px;
+	letter-spacing: 0.5px;
+}
+
+.list2 {
+	font-family: "Segoe UI";
+	font-size: 25px;
+	margin-left: 20px;
+	letter-spacing: 0.5px;
+}
+
+.image3{
+	float: left;
+}
+
+#image3 {
+	position: relative;
+	right: 20px;
+	border-radius: 30px;
+	width: 700px;
+	height: 470px;
+}
+
+#css {
+	float: right;
+	font-family: "Segoe UI";
+	font-size: 30px;
+	padding: 20px;
+	letter-spacing: 0.5px;
+	word-spacing: 2.5px;
+	position: relative;
+	right: 200px;
+}
+
+.description3 {
+	font-family: "Segoe UI";
+	font-size: 25px;
+	position: relative;
+	right: 100px;
+	letter-spacing: 0.5px;
+}
+
+.list3 {
+	font-family: "Segoe UI";
+	font-size: 25px;
+	margin-left: 20px;
+	letter-spacing: 0.5px;
+}
+
+#charS {
+	background-color: #6C5E85;
+}
+#characteristics {
+	font-family:'Montserrat', sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #DFC3E6;
+	text-align: center;
+	text-shadow: 0px 6px 5px black;
+}
+
+#image4 {
+	position: relative;
+	right: 20px;
+	border-radius: 15px;
+	width: 700px;
+	height: 470px;
+}
+
+.list4 {
+	color: #F7F37C;
+	font-family: "Segoe UI";
+	font-size: 25px;
+	padding-left: 30px;
+	padding-right: 30px;
+	letter-spacing: 0.5px;
+}
+
+#examples {
+	background-color: #441761;
+}
+
+#exampleQ {
+	font-family:'Montserrat', sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #DFC3E6;
+	text-align: center;
+	text-shadow: 0px 6px 5px black;
+}
+
+form2 {
+	z-index: 8;
+	position: absolute;
+	bottom: 90px;
+	left: 480px;
+}
+
+#questionNanswer {
+	font-family:'Montserrat', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	text-shadow: 3px 2px 3px white;
+	padding: 10px;
+	border: 2px solid #2A024D;
+	background-color: #DFC3E6;
+	color: #2A024D;
+}
+
+#answers2{
+	font-family:'Montserrat', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	text-shadow: 0px 3px 3px black;
+	color: #F0D16E;
+}
+
+.image5{
+	float: left;
+}
+
+#image5 {
+	position: relative;
+	right: 20px;
+	border-radius: 15px;
+	padding-left: 30px;
+	width: 700px;
+	height: 400px;
+}
+
+.list5 {
+	color: white;
+	font-family: "Segoe UI";
+	font-size: 20px;
+	padding-left: 30px;
+	letter-spacing: 0.5px;
+}
+
+form3 {
+	z-index: 8;
+	position: absolute;
+	bottom: 90px;
+	left: 480px;
+}
+
+#myQuestion {
+	font-family:'Montserrat', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	text-shadow: 3px 2px 3px white;
+	padding: 10px;
+	border: 2px solid #2A024D;
+	background-color: #DFC3E6;
+	color: #2A024D;
+}
+
+#answers3{
+	font-family:'Montserrat', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	text-shadow: 0px 3px 3px black;
+	color: #F0D16E;
+}
+
+#review {
+	background-color: #B16FF0;
+}

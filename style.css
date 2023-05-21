@@ -1,0 +1,100 @@
+
+body {
+	background: rgba(0,0,0,0.30)url(images/software.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+ }
+
+header {
+	padding-top: 50px;
+}
+#homepage > #text1 {
+	font-size: 90px;
+	font-family: Calibri;
+	color: white;
+	text-align: left;
+	padding-left: 30px;
+	padding-top: 10px;
+	text-shadow: 8px 8px 8px #15141A;
+}
+
+#homepage > #text2 {
+	font-size: 80px;
+	font-family: Calibri;
+	color: white;
+	text-align: left;
+	padding-left: 30px;
+	position: relative;
+	bottom: 60px;
+	margin: 0px;
+	text-shadow: 8px 8px 8px #15141A;
+}
+
+#homepage > #text3 {
+	font-size: 70px;
+	font-family: "Gabriola";
+	color: #74B3ED;
+	text-align: left;
+	padding-left: 30px;
+	position: relative;
+	top: -40px;
+	margin: 0px;
+	text-shadow: 2px 2px 2px white;
+}
+
+form {
+	position: relative;
+	bottom: 50px;
+	padding-left: 50px;
+}
+
+#design1 {
+	font-family: "Trebuchet MS";
+	color: white;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+#design2 {
+	font-family: "Trebuchet MS";
+	color: white;
+	font-size: 20px;
+}
+
+#userName  {
+	color: white;
+	font-size: 18px;
+	pading-left: 15px;
+	padding-right: 15px;
+	padding: 10px;
+	border-bottom: 5px solid #74B3ED;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	background-color: #090C2B;
+	cursor: pointer;
+}
+
+#submitButton{
+	font-family: "Trebuchet MS";
+	font-size: 20px;
+	background-color: white;
+	border: 5px solid #74B3ED;
+	cursor: pointer;
+	padding: 5px;
+	margin: 10px;
+}
+
+#clearButton{
+	font-family: "Trebuchet MS";
+	font-size: 20px;
+	background-color: #74B3ED;
+	border: 5px solid white;
+	cursor: pointer;
+	padding: 5px;
+	margin: 10px;
+}
+
+

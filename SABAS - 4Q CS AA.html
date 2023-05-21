@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> All About Open Source Software </title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	
+	<body>
+		<section id="homepage">
+			<h1 id="text1"> WELCOME TO </h1>
+			<h1 id="text2"> INTRODUCTION TO </h1>
+			<h2 id="text3"> OPEN - SOURCE SOFTWARE </h2>
+		</section>
+		
+		<form onsubmit="return myFunction();">
+			<label for="userName"> <span id ="design1"> Before we dive in, Please Enter Your Name: </span> <br><br> <span id="design2"> (First Name's Fine!) </span> </label> <br><br>
+			<input type="text" id="userName" name="userName" value="Type your name here... 😊" >
+			<input type = "reset" id="clearButton" value = "Clear">
+			<input type = "submit" id="submitButton" value = "Go">
+		</form>
+		
+		<script>
+			function myFunction() {
+				var x = document.getElementById("userName").value;
+				alert ("Hello, " + x + "!");
+				alert ("You will be redirected to another page." + "\n" + "Prepare to be blown away by interactive ways of learning Computer Softwares! 🤯✨");
+				window.location.href = "pages/topic.html";
+				return false;
+			}
+		</script>
+	</body>
+</html>
